@@ -1,0 +1,90 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
+.header-wrap {
+	text-align: center;
+}
+
+.main-header {
+	margin-top: 0.5em;
+}
+
+.sub-header {
+	font-style: italic;
+}
+
+.form-wrapper {
+	text-align: center;
+}
+
+.button-wrap {
+	margin-top: 0.75em;
+	text-align: center;
+}
+
+#name {
+	width: 26em;
+}
+
+#skill-level {
+	width: 7.5em;
+}
+
+#submit {
+	text-align: center;
+}
+
+#logo-img {
+	margin: 15px 0px 0px 4em;
+}
+
+.mob-image {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	max-width: 100%;
+	cursor: pointer;
+}
+
+.name-label {
+	font-weight: bold;
+}
+
+.skill-label {
+	margin-top: 0.5em;
+	font-weight: bold;
+}
+
+table {
+    background-color: rgb(223, 223, 223);
+    margin: 0px 10px 10px 0px;
+    min-width: 300px;
+}
+
+td {
+    padding: 0px 10px 0px 10px;
+}
+
+#student-groups-title {
+    margin: 0px 0px 10px 15px;
+}
