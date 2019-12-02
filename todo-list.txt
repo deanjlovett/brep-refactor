@@ -1,0 +1,19 @@
+to dod list of items to implement:
+
+Add the abilith to have up to 4 groups and hav a sperater meeting url
+
+Add the ability to have up to 4 Groups and each have a separate meeting url
+
+Should be passed as an environment variable
+
+Require the admin to login
+
+Should be passed as an environment variable
+
+React with parcel
+  parcel
+  React
+  react-dom
+  react-router-dom
+
+
